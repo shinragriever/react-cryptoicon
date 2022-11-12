@@ -1,14 +1,14 @@
 {
   "name": "@shinragriever/react-cryptoicon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cryptocurrency icons for react",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "source": "src/index.ts",
   "files": [
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "rollup": "rm -rf dist/ && rollup -c",
     "svgr": "svgr --icon --typescript -d src/ assets"
@@ -35,6 +35,6 @@
     "typescript": "^4.8.4"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/shinragriever"
+    "access": "public"
   }
 }
