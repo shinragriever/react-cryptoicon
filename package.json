@@ -1,6 +1,6 @@
 {
   "name": "@shinragriever/react-cryptoicon",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Cryptocurrency icons for react",
   "type": "module",
   "main": "dist/cjs/index.cjs",
